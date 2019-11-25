@@ -4,8 +4,6 @@ public class LivyResponse<T> {
     private int code;
     private String msg;
     private T data;
-
-    /*public static <T> */
     public LivyResponse(int code, String msg, T data) {
         this.code = code;
         this.msg = msg;
