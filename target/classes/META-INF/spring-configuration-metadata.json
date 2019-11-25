@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http",
+      "type": "com.tjh.livy_rest_task.common.config.HttpClientConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http.connect-timeout",
+      "description": "连接超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http.connection-request-timeout",
+      "description": "请求超时时间",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http.default-max-per-route",
+      "description": "每个host的最大连接",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http.max-total",
+      "description": "最大连接",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tjh.livy_rest_task.common.config.HttpClientConfig",
+      "name": "http.socket-timeout",
+      "description": "响应超时时间",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+
+{
+"sparkConf":{
+ "spark.master":"yarn",
+"spark.submit.deployMode":"client"
+},
+"otherConfig":{
+"executorCores":1,
+"executorMemory":1,
+"className":"org.apache.spark.examples.SparkPi",
+"file":"/usr/local/Cellar/spark/spark-2.4.4-bin-hadoop2.7/examples/jars/spark-examples_2.11-2.4.4.jar"
+}
+}
